@@ -1,17 +1,24 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
 
-ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById('root')
-);
+import React from "react"
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+import ReactDom from "react-dom"
+
+// import './card.css'
+
+// import Apps from "./Apps"
+
+// // import Day17 from "./Day17"
+
+// // import Day18  from "./Day18"
+// // import "./chess.css"
+// import "./Increment.css "
+
+import "./Whatsapp.css"
+// import Slot from "./Slot"
+
+// import Increment from "./Increment"
+
+import Whatsapp from "./Whatsapp"
+
+
+ReactDom.render(<Whatsapp /> , document.getElementById("root"))

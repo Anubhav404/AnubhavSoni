@@ -1,0 +1,128 @@
+*{
+    font-family: 'Source Sans Pro', sans-serif;
+    background-color: black;
+}
+
+.heading_part{
+    display: flex;
+    flex-direction: row;
+    /* border: 2px solid black; */
+    justify-content: space-between;
+    background-color: #126A33;
+    color: white;
+    border-top-right-radius: 23px;
+    border-top-left-radius: 23px;
+    position: relative;
+
+}
+.heading_part h2{
+    background-color: #126A33;
+}
+.heading_part ul img{
+    background-color: #126A33;
+
+}
+
+
+
+.img_1{
+    position: absolute;
+    top: 26px;
+    right: 70px;
+    
+}
+.heading_part ul {
+    background-color: #126A33;
+    cursor: pointer;
+}
+
+.main_class{
+    border: 2px solid white;
+    border-radius: 23px;
+    height: 100vh;
+    /* padding: 10px 20px; */
+    width: 40%;
+    margin: auto;
+    background-color: white;
+
+}
+
+.components{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    /* border: 2px solid black; */
+    background-color: #126A33;
+    color: white;
+    padding: 0 10px;
+    cursor: pointer;
+    /* position: relative; */
+}
+
+.components li:hover{
+    background-color: chartreuse;
+    border-radius: 12px;
+    padding: 5px 5px;
+}
+
+
+
+.components li{
+    background-color: #126A33;
+    transition: all 1s;
+}
+
+.components img{
+    background-color: #126A33;
+}
+.message_part{
+    list-style: none;
+    /* border:  2px solid black; */
+    width: 100%;
+    padding: 0 20px;
+    line-height: 30px;
+    font-family: 'Source Sans Pro', sans-serif;
+    background-color: white;
+    
+}
+
+.cards{
+    background-color: white;
+}
+
+.message_part :nth-child(1){
+    font-weight: bolder;
+    font-size: 20px;
+    background-color: white;
+    
+    
+}
+
+.message_part :nth-child(2){
+    color: grey;
+    background-color: white;
+    
+}
+
+.main_img{
+    border-radius: 50%;
+    background-color: white;
+
+}
+
+.main_msg_box{
+    /* border:  2px solid black; */
+    display: flex;
+    position: relative;
+    margin-top: 20px;
+    background-color: white;
+}
+
+.span{
+    position: absolute;
+    right: 5px;
+}
+span{
+    font-weight: lighter;
+    /* color: hotpink; */
+}
